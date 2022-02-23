@@ -1,4 +1,8 @@
 # Low Noise Amplifier
+
+This repository presents the design of Low Noise Amplifier with active inductor using Synopsis Custom Compiler on 28nm CMOS Technology node.
+
+# Table of Contents
   *[Abstract](#abstract)
   *[Reference Circuit Details](#reference-circuit-details)
   *[Reference Circuit Diagram](#reference-circuit-diagram)
@@ -21,7 +25,8 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 ![WhatsApp Image 2022-02-19 at 4 39 44 PM](https://user-images.githubusercontent.com/43288153/155195794-92e132a2-4809-41b2-876a-e4d1d8261791.jpeg)
                                         fig2. Active Inductor
 
-
+## Conclusion
+Thus, an LNA .... is verified using 28nm Technology node on Synopsis Compiler.
 
 ## Acknowledgement
 
