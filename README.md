@@ -1,24 +1,22 @@
 # Low Noise Amplifier
-
 This repository presents the design of Low Noise Amplifier with active inductor using Synopsis Custom Compiler on 28nm CMOS Technology node.
-
 ## Table of Contents
-  *[Abstract](#abstract)
-  *[Reference Circuit Details](#reference-circuit-details)
-  *[Reference Circuit Diagram](#reference-circuit-diagram)
-  *[Reference Circuit Waveform](#reference-circuit-waveform)
-  *[Simulation in Synopsys](#simulation-in-synopsys)
-  *[Circuit Diagram of Active Inductor](#circuit-diagram-of-active-inductor)
-  *[Circuit Diagram of Amplifier Section](#circuit-diagram-of-amplifier-section)
-  *[Symbols](#symbols)
-  *[Block Diagram Of Testbench](#block-diagram-of-testbench)
-  *[S-Parameter Setting](s-parameter-setting)
-  *[Noise Setting](#noise-setting)
-  *[Netlist](#netlist)
-  *[Waveforms](#waveforms)
-  *[Conclusion](#conclusion)
-  *[Acknowledgement](#acknowledgement)
-  *[References](#References)
+  * [Abstract](#abstract)
+  * [Reference Circuit Details](#reference-circuit-details)
+  * [Reference Circuit Diagram](#reference-circuit-diagram)
+  * [Reference Circuit Waveform](#reference-circuit-waveform)
+- [Simulation in Synopsys](#simulation-in-synopsys)
+  * [Circuit Diagram of Active Inductor](#circuit-diagram-of-active-inductor)
+  * [Circuit Diagram of Amplifier Section](#circuit-diagram-of-amplifier-section)
+  * [Symbols](#symbols)
+  * [Block Diagram Of Testbench of LNA](#block-diagram-of-testbench-of-lna)
+  * [S-Parameter Setting](#s-parameter-setting)
+  * [Noise Setting](#noise-setting)
+  * [Netlist](#netlist)
+  * [Waveforms](#waveforms)
+ * [Conclusion](#conclusion)
+  * [Acknowledgement](#acknowledgement)
+  * [References](#references)
 ## Abstract
 
 The proposed Low Noise Amplifier (LNA) with active inductor instead of passive inductor which can save the size of the chip at a great extent. The LNA is designed in 28nm technology for 2.5 GHz resonant frequency. The LNA presented here offers a good noise performance. The proposed LNA is simulated in synopsis design tool in 28nm technology.
@@ -62,7 +60,7 @@ fig: active inductor symbol
 ![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
 fig: symbol of LNA
 
-## Testbench of LNA
+## Block Diagram of Testbench of LNA
 
 ![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
 fig: testbench of LNA
@@ -190,7 +188,7 @@ r19 net16 net26 r=200
                                  fig output noise.
 
 ## Conclusion
-Thus, the LNA shows a proper maching at 2.5GHz and is verified using 28nm Technology node of Synopsis.
+Thus, the LNA has been simulated using active inductor which shows a proper maching at 2.5GHz and is verified using 28nm Technology node of Synopsis.
 
 ## Acknowledgement
 
