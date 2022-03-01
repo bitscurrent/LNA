@@ -29,16 +29,31 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 
 
 ## Noise Setting
+![noise setting](https://user-images.githubusercontent.com/43288153/156167514-75babda2-811b-4f1d-b8b4-648c486e20df.jpg)
+
 
 ## Schematic Diagram 
+![amplifier schematic](https://user-images.githubusercontent.com/43288153/156167605-57f4d15c-c9e1-407d-9b5c-a9badef95645.jpg)
+
+## Symbols
+![active inductor symbol](https://user-images.githubusercontent.com/43288153/156167699-aacded32-bf77-4753-95a3-d2682213bf7a.jpg)
+fig: active inductor symbol
+
+![amplifier symbol](https://user-images.githubusercontent.com/43288153/156167772-93076391-c3d4-4abf-9640-a4122fd2e114.jpg)
+fig: symbol of amplifier section 
+
+![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
+fig: symbol of LNA
 
 ## Waveforms
-fig Scattering Parameter (S11).
+![s-param waveform final](https://user-images.githubusercontent.com/43288153/156167943-91e52f52-fdcf-484d-816a-57db41a89294.jpg)
+fig scattering parameter (S11)
 
-fig Output Noise.
+![output noise](https://user-images.githubusercontent.com/43288153/156168019-4041c71a-1515-48c5-9711-1ab86705afe5.jpg)
+fig output noise.
 
 ## Conclusion
-Thus, an LNA .... is verified using 28nm Technology node on Synopsis Compiler.
+Thus, the LNA uses current-reuse technique and hence the performance is improved. It shows  proper maching at 2.52GHz and is verified using 28nm Technology node on Synopsis Compiler.
 
 ## Acknowledgement
 
