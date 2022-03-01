@@ -53,10 +53,11 @@ fig scattering parameter (S11)
 fig output noise.
 
 ## Conclusion
-Thus, the LNA uses current-reuse technique and hence the performance is improved. It shows  proper maching at 2.52GHz and is verified using 28nm Technology node on Synopsis Compiler.
+Thus, the LNA uses current-reuse technique and hence the performance is improved. It shows  proper maching at 2.5GHz and is verified using 28nm Technology node of Synopsis.
 
 ## Acknowledgement
 
+1. Synopsys Team/Company.
 1.  Kunal Ghosh, Co-founder,VSD Corp.Pvt. Ltd.- kunalpghosh@gmail.com
 
 2. Chinmay Panda, IIT Hyderabad
