@@ -8,19 +8,20 @@ This repository presents the design of Low Noise Amplifier with active inductor 
   *[Reference Circuit Diagram](#reference-circuit-diagram)
   *[Reference Circuit Waveform](#reference-circuit-waveform)
   *[Simulation in Synopsys](#simulation-in-synopsys)
-  *[schematic Diagram](#schematic-diagram)
+  *[Schematic Diagram of Active Inductor](#schematic-diagram-of-active-inductor)
+  *[Schematic Diagram of Amplifier Section](#schematic-diagram-of-amplifier-section)
+  *[Symbols](#symbols)
+  *[Block Diagram Of Testbench](#block-diagram-of-testbench)
   *[S-Parameter Setting](s-parameter-setting)
   *[Noise Setting](#noise-setting)
-   
-  *[Symbol](#Symbol)
   *[Netlist](#netlist)
-  *[Waveform](#waveform)
+  *[Waveforms](#waveforms)
   *[Conclusion](#conclusion)
   *[Acknowledgement](#cknowledgement)
   *[Reference](#Reference)
 ## Abstract
 
-The proposed Low Noise Amplifier (LNA) with active inductor instead of passive inductor which can save the size of the chip at a great extent. The LNA is designed in 28nm technology for 2.6 GHz frequency range. The LNA presented here offers a good noise performance. The proposed LNA is simulated in synopsis design tool in 28nm technology.
+The proposed Low Noise Amplifier (LNA) with active inductor instead of passive inductor which can save the size of the chip at a great extent. The LNA is designed in 28nm technology for 2.5 GHz resonant frequency. The LNA presented here offers a good noise performance. The proposed LNA is simulated in synopsis design tool in 28nm technology.
   
 ## Reference Circuit Details
 
@@ -46,7 +47,7 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
                                     fig: circuit diagram of active inductor
  
  
-## Circuit Diagram of Aamplifier Section
+## Circuit Diagram of Amplifier Section
 ![amplifier schematic](https://user-images.githubusercontent.com/43288153/156167605-57f4d15c-c9e1-407d-9b5c-a9badef95645.jpg)
 fig: circuit diagram of amplifier section
 
