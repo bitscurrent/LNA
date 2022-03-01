@@ -7,10 +7,17 @@ This repository presents the design of Low Noise Amplifier with active inductor 
   *[Reference Circuit Details](#reference-circuit-details)
   *[Reference Circuit Diagram](#reference-circuit-diagram)
   *[Reference Circuit Waveform](#reference-circuit-waveform)
-  
-- [Simulation in Synopsys] (#simulation-in-synopsys)
-   *[schematic Diagram](#schematic-diagram)
-  
+  *[Simulation in Synopsys](#simulation-in-synopsys)
+  *[schematic Diagram](#schematic-diagram)
+  *[S-Parameter Setting](s-parameter-setting)
+  *[Noise Setting](#noise-setting)
+   
+  *[Symbol](#Symbol)
+  *[Netlist](#netlist)
+  *[Waveform](#waveform)
+  *[Conclusion](#conclusion)
+  *[Acknowledgement](#cknowledgement)
+  *[Reference](#Reference)
 ## Abstract
 
 The proposed Low Noise Amplifier (LNA) with active inductor instead of passive inductor which can save the size of the chip at a great extent. The LNA is designed in 28nm technology for 2.6 GHz frequency range. The LNA presented here offers a good noise performance. The proposed LNA is simulated in synopsis design tool in 28nm technology.
@@ -31,26 +38,18 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 ![WhatsApp Image 2022-02-19 at 12 59 13 PM](https://user-images.githubusercontent.com/43288153/156194019-9511a68e-2941-447e-955c-775edd7c676d.jpeg)
                                         fig: s-parameter of s11
                                                                             
-
-## S-Parameter Setting
-![s-param setting](https://user-images.githubusercontent.com/43288153/156167248-5989189d-73fb-4b0d-b0bd-1f9902993da3.jpg)
-
-
-## Noise Setting
-![noise setting](https://user-images.githubusercontent.com/43288153/156167514-75babda2-811b-4f1d-b8b4-648c486e20df.jpg)
-
 # Simulation in Synopsys
 
-## Schematic Diagram 
+## Schematic Diagram of Active Inductor
 
 ![active inductor schematic](https://user-images.githubusercontent.com/43288153/156186664-fd6f12d3-4feb-44aa-9b04-9a3516661c21.jpg)
                                     fig: circuit diagram of active inductor
-
+ 
+ 
+## Circuit Diagram of Aamplifier Section
 ![amplifier schematic](https://user-images.githubusercontent.com/43288153/156167605-57f4d15c-c9e1-407d-9b5c-a9badef95645.jpg)
 fig: circuit diagram of amplifier section
 
-![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
-                                    fig: testbench of LNA
 
 ## Symbols
 ![active inductor symbol](https://user-images.githubusercontent.com/43288153/156167699-aacded32-bf77-4753-95a3-d2682213bf7a.jpg)
@@ -61,6 +60,20 @@ fig: circuit diagram of amplifier section
 
 ![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
                                   fig: symbol of LNA
+
+## Testbench of LNA
+
+![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
+                                    fig: testbench of LNA
+
+                                    
+## S-Parameter Setting
+![s-param setting](https://user-images.githubusercontent.com/43288153/156167248-5989189d-73fb-4b0d-b0bd-1f9902993da3.jpg)
+
+
+## Noise Setting
+![noise setting](https://user-images.githubusercontent.com/43288153/156167514-75babda2-811b-4f1d-b8b4-648c486e20df.jpg)
+
 
 ## Netlist
 
