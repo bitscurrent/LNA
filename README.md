@@ -23,8 +23,8 @@ The proposed Low Noise Amplifier (LNA) with active inductor instead of passive i
   
 ## Reference Circuit Details
 
-The current reuse technique is used to design LNA with an aim to reduce the chip area for that an active inductor is used in the gate inductance. In LNA the gate inductance is always higher ~7nH which consumes large area, to overcome the issue an active inductor has been placed which consumes relatively lower area. In fig1 C1 and C2 are DC block capacitors, L1 and L2 are source and drain inductors and the inductor Lm is used to increase the impedance between M1 and M2.
-Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse the conductance value of M3 which is in positive transconductance region and M1 is in negative transconductance region. The three transistors M6,M7,and M8 are used for biasing purpose. And the current Ibias is used for biasing.[3]
+The current reuse technique is used to design LNA with an aim to reduce the chip area for that an active inductor is used in the gate inductance. In LNA the gate inductance is always higher ~7nH which consumes large area, to overcome the issue an active inductor has been placed which consumes relatively lower area. In fig1, of reference circuit C1 and C2 are DC block capacitors, L1 and L2 are source and drain inductors and the inductor Lm is used to increase the impedance between M1 and M2.
+Active Inductor- In fig2 of reference circuit of active inductor, M4 and M5 are current mirror transistors they inverse the conductance value of M3 which is in positive transconductance region and M1 is in negative transconductance region. The three transistors M6,M7,and M8 are used for biasing purpose. And the current Ibias is used for biasing.[3]
 
 ## Reference Circuit Diagram
 ![schematic dia LNA with inductor](https://user-images.githubusercontent.com/43288153/155196548-7ddb7448-8ef3-4b82-89fb-6f2d146cc52f.jpg)
