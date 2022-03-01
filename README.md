@@ -34,6 +34,10 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 
 ## Schematic Diagram 
 ![amplifier schematic](https://user-images.githubusercontent.com/43288153/156167605-57f4d15c-c9e1-407d-9b5c-a9badef95645.jpg)
+fig: circuit diagram of amplifier section
+
+![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
+fig: testbench of LNA
 
 ## Symbols
 ![active inductor symbol](https://user-images.githubusercontent.com/43288153/156167699-aacded32-bf77-4753-95a3-d2682213bf7a.jpg)
@@ -49,20 +53,22 @@ fig: symbol of LNA
 ![s-param waveform final](https://user-images.githubusercontent.com/43288153/156167943-91e52f52-fdcf-484d-816a-57db41a89294.jpg)
 fig scattering parameter (S11)
 
+
 ![output noise](https://user-images.githubusercontent.com/43288153/156168019-4041c71a-1515-48c5-9711-1ab86705afe5.jpg)
 fig output noise.
 
 ## Conclusion
-Thus, the LNA uses current-reuse technique and hence the performance is improved. It shows  proper maching at 2.5GHz and is verified using 28nm Technology node of Synopsis.
+Thus, the LNA shows a proper maching at 2.5GHz and is verified using 28nm Technology node of Synopsis.
 
 ## Acknowledgement
 
-1. Synopsys Team/Company.
-1.  Kunal Ghosh, Co-founder,VSD Corp.Pvt. Ltd.- kunalpghosh@gmail.com
+1.  Synopsys Team/Company.
+  
+2.  Kunal Ghosh, Co-founder,VSD Corp.Pvt. Ltd.- kunalpghosh@gmail.com
+3.  Chinmay Panda, IIT Hyderabad
+4.  Sumanto Kar, Sr. Project Technical Assistant, IIT Bombay  
 
-2. Chinmay Panda, IIT Hyderabad
-
-3. Sameer Durgoji, NIT Karnataka
+5.  Sameer Durgoji, NIT Karnataka
 
 ## References
 
