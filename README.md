@@ -26,6 +26,12 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 
 ![WhatsApp Image 2022-02-19 at 4 39 44 PM](https://user-images.githubusercontent.com/43288153/155195794-92e132a2-4809-41b2-876a-e4d1d8261791.jpeg)
                                         fig2. Active Inductor
+ 
+## Reference Circuit Waveform
+![WhatsApp Image 2022-02-19 at 12 59 13 PM](https://user-images.githubusercontent.com/43288153/156194019-9511a68e-2941-447e-955c-775edd7c676d.jpeg)
+                                        fig: s-parameter of s11
+                                                                            
+
 ## S-Parameter Setting
 ![s-param setting](https://user-images.githubusercontent.com/43288153/156167248-5989189d-73fb-4b0d-b0bd-1f9902993da3.jpg)
 
