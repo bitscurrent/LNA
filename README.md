@@ -49,6 +49,111 @@ fig: symbol of amplifier section
 ![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
 fig: symbol of LNA
 
+## Netlist
+'''
+*  Generated for: PrimeSim
+*  Design library name: sm_LNA_new
+*  Design cell name: sm_Amplifier_1_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Tue Mar  1 12:03:26 2022
+
+.global gnd!
+********************************************************************************
+* Library          : sm_LNA_new
+* Cell             : sm_Amplifier_1
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt sm_amplifier_1 input output vdd vss
+xm0 output vdd net2 net2 n105 w=0.1u l=0.03u nf=1 m=1
+xm1 net3 input net4 vss n105 w=0.1u l=0.03u nf=1 m=1
+l2 net2 net3 l=3.07n
+l3 net4 vss l=1.125n
+l8 vdd output l=2.5n
+c4 output output c=400f
+c5 net2 vss c=1p
+c7 vdd net3 c=10u
+c9 input net4 c=400f
+.ends sm_amplifier_1
+
+********************************************************************************
+* Library          : sm_LNA_new
+* Cell             : sm_LNA_active_inductor
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt sm_lna_active_inductor isource vdd vss out
+xm7 net47 net32 out out n105 w=0.1u l=0.03u nf=1 m=1
+xm4 net18 net32 out out n105 w=0.1u l=0.03u nf=1 m=1
+xm3 net49 net36 net15 net15 n105 w=0.1u l=0.03u nf=1 m=1
+xm2 net15 net18 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm1 net36 isource net60 net60 n105 w=0.1u l=0.03u nf=1 m=1
+xm0 net60 net15 vss vss n105 w=0.1u l=0.03u nf=1 m=1
+xm11 net47 net49 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm10 isource isource vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm9 net49 isource vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm8 net36 isource vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+c12 net49 vss c=680f
+r18 net32 vdd r=1k
+r17 vdd net18 r=1k
+r16 isource vdd r=4k
+.ends sm_lna_active_inductor
+
+********************************************************************************
+* Library          : sm_LNA_new
+* Cell             : sm_Amplifier_1_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net16 output net1 gnd! sm_amplifier_1
+xi11 net19 net5 gnd! net16 sm_lna_active_inductor
+c24 output gnd! c=1490f
+c2 input net5 c=1n
+p2 output gnd! port=2 dc=0 z0=50
+p1 input gnd! port=1 dc=0 z0=50
+v17 net26 gnd! dc=1
+v16 net5 gnd! dc=1.2
+v6 net1 gnd! dc=1.2
+i15 net19 gnd! dc=120u
+r19 net16 net26 r=200
+
+
+
+
+
+
+
+
+.lin dec '20' '500meg' '10G' format=touchstone dataformat=ri noisecalc=1 iport=2
++ oport=1 mixedmode2port=ss ports=p2 p1 name=lin
+.noise v(output,gnd!) p1 1 dec '20' '500meg' '10G' name=noise
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+.option primesim_noise_format = 2
+
+
+
+
+
+
+.end
+'''
 ## Waveforms
 ![s-param waveform final](https://user-images.githubusercontent.com/43288153/156167943-91e52f52-fdcf-484d-816a-57db41a89294.jpg)
 fig scattering parameter (S11)
