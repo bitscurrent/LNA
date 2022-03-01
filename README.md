@@ -31,26 +31,31 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 ## Noise Setting
 ![noise setting](https://user-images.githubusercontent.com/43288153/156167514-75babda2-811b-4f1d-b8b4-648c486e20df.jpg)
 
+## Simulation in Synopsys
 
 ## Schematic Diagram 
+
+![active inductor schematic](https://user-images.githubusercontent.com/43288153/156186664-fd6f12d3-4feb-44aa-9b04-9a3516661c21.jpg)
+                                    fig: circuit diagram of active inductor
+
 ![amplifier schematic](https://user-images.githubusercontent.com/43288153/156167605-57f4d15c-c9e1-407d-9b5c-a9badef95645.jpg)
 fig: circuit diagram of amplifier section
 
 ![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
-fig: testbench of LNA
+                                    fig: testbench of LNA
 
 ## Symbols
 ![active inductor symbol](https://user-images.githubusercontent.com/43288153/156167699-aacded32-bf77-4753-95a3-d2682213bf7a.jpg)
-fig: active inductor symbol
+                                    fig: active inductor symbol
 
 ![amplifier symbol](https://user-images.githubusercontent.com/43288153/156167772-93076391-c3d4-4abf-9640-a4122fd2e114.jpg)
-fig: symbol of amplifier section 
+                                   fig: symbol of amplifier section 
 
 ![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
-fig: symbol of LNA
+                                  fig: symbol of LNA
 
 ## Netlist
-'''
+
 *  Generated for: PrimeSim
 *  Design library name: sm_LNA_new
 *  Design cell name: sm_Amplifier_1_tb
@@ -153,14 +158,14 @@ r19 net16 net26 r=200
 
 
 .end
-'''
+
 ## Waveforms
 ![s-param waveform final](https://user-images.githubusercontent.com/43288153/156167943-91e52f52-fdcf-484d-816a-57db41a89294.jpg)
-fig scattering parameter (S11)
+                                 fig scattering parameter (S11)
 
 
 ![output noise](https://user-images.githubusercontent.com/43288153/156168019-4041c71a-1515-48c5-9711-1ab86705afe5.jpg)
-fig output noise.
+                                 fig output noise.
 
 ## Conclusion
 Thus, the LNA shows a proper maching at 2.5GHz and is verified using 28nm Technology node of Synopsis.
