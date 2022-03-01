@@ -30,21 +30,21 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 
 ## Reference Circuit Diagram
 ![schematic dia LNA with inductor](https://user-images.githubusercontent.com/43288153/155196548-7ddb7448-8ef3-4b82-89fb-6f2d146cc52f.jpg)
-                                        fig1 Schematic Diagram of LNA   
+fig1 Schematic Diagram of LNA   
 
 ![WhatsApp Image 2022-02-19 at 4 39 44 PM](https://user-images.githubusercontent.com/43288153/155195794-92e132a2-4809-41b2-876a-e4d1d8261791.jpeg)
-                                        fig2. Active Inductor
+fig2. Active Inductor
  
 ## Reference Circuit Waveform
 ![WhatsApp Image 2022-02-19 at 12 59 13 PM](https://user-images.githubusercontent.com/43288153/156194019-9511a68e-2941-447e-955c-775edd7c676d.jpeg)
-                                        fig: s-parameter of s11
+fig: s-parameter of s11
                                                                             
 # Simulation in Synopsys
 
 ## Schematic Diagram of Active Inductor
 
 ![active inductor schematic](https://user-images.githubusercontent.com/43288153/156186664-fd6f12d3-4feb-44aa-9b04-9a3516661c21.jpg)
-                                    fig: circuit diagram of active inductor
+fig: circuit diagram of active inductor
  
  
 ## Circuit Diagram of Amplifier Section
@@ -54,18 +54,18 @@ fig: circuit diagram of amplifier section
 
 ## Symbols
 ![active inductor symbol](https://user-images.githubusercontent.com/43288153/156167699-aacded32-bf77-4753-95a3-d2682213bf7a.jpg)
-                                    fig: active inductor symbol
+fig: active inductor symbol
 
 ![amplifier symbol](https://user-images.githubusercontent.com/43288153/156167772-93076391-c3d4-4abf-9640-a4122fd2e114.jpg)
-                                   fig: symbol of amplifier section 
+ fig: symbol of amplifier section 
 
 ![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
-                                  fig: symbol of LNA
+fig: symbol of LNA
 
 ## Testbench of LNA
 
 ![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
-                                    fig: testbench of LNA
+fig: testbench of LNA
 
                                     
 ## S-Parameter Setting
