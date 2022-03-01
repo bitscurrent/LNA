@@ -8,8 +8,8 @@ This repository presents the design of Low Noise Amplifier with active inductor 
   *[Reference Circuit Diagram](#reference-circuit-diagram)
   *[Reference Circuit Waveform](#reference-circuit-waveform)
   *[Simulation in Synopsys](#simulation-in-synopsys)
-  *[Schematic Diagram of Active Inductor](#schematic-diagram-of-active-inductor)
-  *[Schematic Diagram of Amplifier Section](#schematic-diagram-of-amplifier-section)
+  *[Circuit Diagram of Active Inductor](#circuit-diagram-of-active-inductor)
+  *[Circuit Diagram of Amplifier Section](#circuit-diagram-of-amplifier-section)
   *[Symbols](#symbols)
   *[Block Diagram Of Testbench](#block-diagram-of-testbench)
   *[S-Parameter Setting](s-parameter-setting)
@@ -41,7 +41,7 @@ fig: s-parameter of s11
                                                                             
 # Simulation in Synopsys
 
-## Schematic Diagram of Active Inductor
+## Circuit Diagram of Active Inductor
 
 ![active inductor schematic](https://user-images.githubusercontent.com/43288153/156186664-fd6f12d3-4feb-44aa-9b04-9a3516661c21.jpg)
 fig: circuit diagram of active inductor
