@@ -17,8 +17,8 @@ This repository presents the design of Low Noise Amplifier with active inductor 
   *[Netlist](#netlist)
   *[Waveforms](#waveforms)
   *[Conclusion](#conclusion)
-  *[Acknowledgement](#cknowledgement)
-  *[Reference](#Reference)
+  *[Acknowledgement](#acknowledgement)
+  *[References](#References)
 ## Abstract
 
 The proposed Low Noise Amplifier (LNA) with active inductor instead of passive inductor which can save the size of the chip at a great extent. The LNA is designed in 28nm technology for 2.5 GHz resonant frequency. The LNA presented here offers a good noise performance. The proposed LNA is simulated in synopsis design tool in 28nm technology.
