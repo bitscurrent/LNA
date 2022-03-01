@@ -2,12 +2,14 @@
 
 This repository presents the design of Low Noise Amplifier with active inductor using Synopsis Custom Compiler on 28nm CMOS Technology node.
 
-# Table of Contents
+## Table of Contents
   *[Abstract](#abstract)
   *[Reference Circuit Details](#reference-circuit-details)
   *[Reference Circuit Diagram](#reference-circuit-diagram)
   *[Reference Circuit Waveform](#reference-circuit-waveform)
   
+- [Simulation in Synopsys] (#simulation-in-synopsys)
+   *[schematic Diagram](#schematic-diagram)
   
 ## Abstract
 
@@ -31,7 +33,7 @@ Active Inductor- In fig2 M4 and M5 are current mirror transistors they inverse t
 ## Noise Setting
 ![noise setting](https://user-images.githubusercontent.com/43288153/156167514-75babda2-811b-4f1d-b8b4-648c486e20df.jpg)
 
-## Simulation in Synopsys
+# Simulation in Synopsys
 
 ## Schematic Diagram 
 
