@@ -28,7 +28,9 @@ Active Inductor- In fig2 of reference circuit of active inductor, M4 and M5 are 
 
 ## Reference Circuit Diagram
 ![schematic dia LNA with inductor](https://user-images.githubusercontent.com/43288153/155196548-7ddb7448-8ef3-4b82-89fb-6f2d146cc52f.jpg)
-fig1: Schematic Diagram of LNA   
+
+fig1: Schematic Diagram of LNA.
+
 
 ![WhatsApp Image 2022-02-19 at 4 39 44 PM](https://user-images.githubusercontent.com/43288153/155195794-92e132a2-4809-41b2-876a-e4d1d8261791.jpeg)
 fig2: Active Inductor
@@ -42,36 +44,50 @@ fig3: s-parameter of s11
 ## Circuit Diagram of Active Inductor
 
 ![active inductor schematic](https://user-images.githubusercontent.com/43288153/156186664-fd6f12d3-4feb-44aa-9b04-9a3516661c21.jpg)
+
 fig4: circuit diagram of active inductor
  
  
 ## Circuit Diagram of Amplifier Section
+
 ![amplifier schematic](https://user-images.githubusercontent.com/43288153/156167605-57f4d15c-c9e1-407d-9b5c-a9badef95645.jpg)
+
 fig5: circuit diagram of amplifier section
 
 
 ## Symbols
 ![active inductor symbol](https://user-images.githubusercontent.com/43288153/156167699-aacded32-bf77-4753-95a3-d2682213bf7a.jpg)
+
 fig6: active inductor symbol
 
+
 ![amplifier symbol](https://user-images.githubusercontent.com/43288153/156167772-93076391-c3d4-4abf-9640-a4122fd2e114.jpg)
+ 
  fig7: symbol of amplifier section 
 
+
 ![LNA symbol](https://user-images.githubusercontent.com/43288153/156167874-ef68436b-89c4-474c-b9f6-01455365876c.jpg)
+
 fig8: symbol of LNA
+
 
 ## Block Diagram of Testbench of LNA
 
 ![testbench](https://user-images.githubusercontent.com/43288153/156170021-1f9ed4af-8e80-473a-81da-32712153887e.jpg)
+
 fig9: testbench of LNA
+
 
                                     
 ## S-Parameter Setting
 ![s-param setting](https://user-images.githubusercontent.com/43288153/156167248-5989189d-73fb-4b0d-b0bd-1f9902993da3.jpg)
+
 fig10: s-parameter setting
+
 
 ## Noise Setting
 ![noise setting](https://user-images.githubusercontent.com/43288153/156167514-75babda2-811b-4f1d-b8b4-648c486e20df.jpg)
+
 fig11: noise setting
 
 ## Netlist
@@ -178,6 +194,7 @@ r19 net16 net26 r=200
 
 
 .end
+
 ```
 
 ## Waveforms
