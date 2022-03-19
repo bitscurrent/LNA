@@ -75,7 +75,7 @@ fig10: s-parameter setting
 fig11: noise setting
 
 ## Netlist
-
+```
 *  Generated for: PrimeSim
 *  Design library name: sm_LNA_new
 *  Design cell name: sm_Amplifier_1_tb
@@ -178,6 +178,7 @@ r19 net16 net26 r=200
 
 
 .end
+```
 
 ## Waveforms
 ![s-param waveform final](https://user-images.githubusercontent.com/43288153/156167943-91e52f52-fdcf-484d-816a-57db41a89294.jpg)
